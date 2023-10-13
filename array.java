@@ -19,11 +19,11 @@ public class array {
 	  {
 		  for(int p=t+1;p<ar.length;p++) 
 		  {
-			  if(ar[t]>ar[p]) 
+			  if(ar[t]<ar[p]) 
 			  {
-				  long te=ar[t];
-				  ar[t]=ar[p];
-				  ar[p]=te;
+				 long tm=ar[p];
+				 ar[p]=ar[t];
+				 ar[t]=tm;
 				  
 			  }
 		  }
